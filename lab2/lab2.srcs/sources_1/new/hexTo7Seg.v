@@ -55,7 +55,7 @@ module hexTo7Seg(
           4'b1010 : segments = 7'b0001000;   // A
           4'b1011 : segments = 7'b0000011;   // b
           4'b1100 : segments = 7'b1000110;   // C
-          4'b1101 : segments = 7'b0100001;   // d
+          4'b1101 : segments = 7'b0100001;   // D
           4'b1110 : segments = 7'b0000110;   // E
           4'b1111 : segments = 7'b0001110;   // F
           default : segments = 7'b1000000;   // 0
